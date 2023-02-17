@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gap_articles",
+  "info": {
+    "singularName": "gap-article",
+    "pluralName": "gap-articles",
+    "displayName": "gap-article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

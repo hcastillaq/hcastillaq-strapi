@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * simulation service
+ * gap-article service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::simulation.simulation');
+module.exports = createCoreService('api::gap-article.gap-article');
